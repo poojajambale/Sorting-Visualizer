@@ -1,0 +1,27 @@
+* {
+  background-color: black;
+}
+
+#container {
+  height: 200px;
+  display: flex;
+  align-items: end;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bar {
+  width: 15px;
+  background-color: rgb(135, 199, 231);
+  margin: 1px;
+}
+
+button {
+  background-color: white;
+  border: 1px;
+  border-radius: 3px;
+}
